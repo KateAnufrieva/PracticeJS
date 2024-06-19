@@ -6,7 +6,7 @@ class Human{
         this.country = country;
     }
 
-    getInfo(){
+    printInfo(){
         console.log(`Name: ${this.name}\nAge: ${this.age}\nCountry: ${this.country}\n`);
     }
 }
@@ -14,5 +14,5 @@ class Human{
 let Human1 = new Human ("Kate", 20, "Belarus");
 let Human2 = new Human ("Mark", 45, "Russia");
 
-Human1.getInfo();
-Human2.getInfo();
+Human1.printInfo();
+Human2.printInfo();
